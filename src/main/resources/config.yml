@@ -14,7 +14,7 @@ use-player-locale: false
 
 # The number of times non-VIP players can chop down trees per day,
 # you can give everyone "autotreechop.vip" permission to disable it.
-max-uses-per-day: 50
+max-uses-per-day: 500000
 
 # MySQL setting
 # If "useMysql: false", plugin will use SQLite
@@ -28,12 +28,12 @@ password: abc1234
 # If disable, VIP have unlimited usage
 limitVipUsage: true
 # Will only work when you enable limitVipUsage
-vip-uses-per-day: 100
-vip-blocks-per-day: 1000
+vip-uses-per-day: 100000000
+vip-blocks-per-day: 10000000000
 
 # Tree blocks that non-VIP players can chop down every day,
 # you can give everyone "autotreechop.vip" permission to disable it.
-max-blocks-per-day: 500
+max-blocks-per-day: 5000000000000
 
 # Use visual effect
 visual-effect: true
